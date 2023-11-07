@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.container{
+    background-color: rgb(47, 56, 189);
+    height: 450px;
+    width: 360px;
+    border-radius: 30px;
+    align-items: center;
+    margin: 80px auto;
+
+}
+.options{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    margin-top: 40px;
+    height: 45px;
+    width: 220px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    background-color: rgb(236, 236, 236);
+    padding: 15px;
+}
+button{
+    margin-top: 40px;
+    height: 45px;
+    width: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(236, 236, 236);
+}
+button img{
+    height: 25px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contentimg{
+    padding-top: 15px;
+    height: 145px;
+}
+.content h3{
+    font-size: 25px;
+}
+.content h2{
+    font-size: 30px;
+}
+.subcontent{
+    margin: 30px 5px 0 25px;
+    display: flex;
+    gap: 20px;
+}
+.scontent{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.scontent img{
+    height: 30px;
+}
+.humid h2{
+    font-size: 22px;
+}
+.humid h3{
+    font-size: 18px;
+}
+
